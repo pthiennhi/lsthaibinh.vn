@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+# Build output
+dist/
+.next/
+out/
+
+# Static files
+/public/static/
+public/uploads/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage directory used by testing tools like Jest
+coverage/
+
+# Database
+*.sqlite
+*.sqlite3
+*.pgdata
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yaml
+.Dockerfile.swp
+
+# MacOS
+.DS_Store
+
+# Miscellaneous
+npm-debug.log
+yarn-debug.log
